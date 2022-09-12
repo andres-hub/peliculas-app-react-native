@@ -25,7 +25,9 @@ export const MoviPoster = ({movie, height = 400, width = 300}: Props) => {
         style={{
             width,
             height,
-            marginHorizontal: 8
+            marginHorizontal: 2,
+            paddingBottom:20,
+            paddingHorizontal: 7
         }}
     >
         <View style={styles.containerImage}>
